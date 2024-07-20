@@ -84,4 +84,58 @@ let num13 = 10
 let combNOT = !num12 
 console.log(combNOT)
 
+//Activity 5: Ternary Operator
+//Task 14: Write a program that uses the ternary operator to check if a number
+//is positive or negative and log the result to the code
 
+const Numbers1 = -10;
+Numbers1 > 0 ? console.log("Number is positive"):console.log("Number is negative")
+
+// Feature Request
+ //1. Arithmetic Operations Script: Write a script that perform basic
+ //arithmetic operations (addition,subtraction,multiplication,division,remainder)
+ //on two numbers and logs the results.
+
+
+  let firstnum = 10
+  let secondnums = 5;
+ const add = firstnum + secondnums;
+ const subt = firstnum - secondnums;
+ const Multply = firstnum * secondnums;
+ const division = firstnum / secondnums;
+ const remainders = firstnum % secondnums;
+ console.log("Addition:",add)
+ console.log("Subtraction:",subt)
+ console.log("Multicpication:",Multply)
+ console.log("Division:",division)
+ console.log("Remainder:",remainders)
+ //2. Comparison and Logical Operators Script: Create a script that compares
+ //two numbers using different comparison operator and combines condition using
+ //logical operators, logging the results.
+ // Declare two numbers
+ let nums1 = 10;
+ let nums2 = 5;
+ // Comparison operators
+ console.log("num1 == num2:", num1 == num2); // false
+ console.log("num1 === num2:", num1 === num2); // false
+ console.log("num1 != num2:", num1 != num2); // true
+console.log("num1 !== num2:", num1 !== num2); // true
+console.log("num1 > num2:", num1 > num2); // true
+console.log("num1 < num2:", num1 < num2); // false
+console.log("num1 >= num2:", num1 >= num2); // true
+console.log("num1 <= num2:", num1 <= num2); // false
+// Logical operators
+let condition1 = num1 > num2; // true
+let condition2 = num1 === 10; // true
+console.log("condition1 && condition2:", condition1 && condition2); // true
+console.log("condition1 || condition2:", condition1 || condition2); // true
+console.log("!condition1:", !condition1); // false
+//Feature Request:3.Ternary Operator Script: write a script that uses the
+//ternary operator to determine if a number is positive or negative and logs the
+//result.
+// Declare a number
+let number = 5;
+// Use the ternary operator to determine if the number is positive or negative
+let result = (number >= 0) ? "Positive" : "Negative";
+// Log the result to the console
+console.log("The number is:", result);
