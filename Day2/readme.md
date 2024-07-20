@@ -1,1 +1,1 @@
-# By doimg this exersise i learn  all about the operators
+# By doing this exersise i learn  all about the operators
